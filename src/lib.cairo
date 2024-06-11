@@ -1,5 +1,8 @@
 pub mod fibonacci;
-fn main() -> u32 {
+pub mod factorial;
+
+fn main() ->u32{
+    cairo_learning::factorial::factorial(5);
     cairo_learning::fibonacci::fibonacci(10);
     fib(16)
 }
