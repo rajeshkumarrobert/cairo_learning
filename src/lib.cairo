@@ -1,10 +1,13 @@
+
 pub mod fibonacci;
 pub mod factorial;
+mod dic_trait;
 
 fn main() ->u32{
     cairo_learning::factorial::factorial(5);
     cairo_learning::fibonacci::fibonacci(10);
-    fib(16)
+    cairo_learning::dic_trait::dictionary_trait();
+     fib(16)
 }
 
 fn fib(mut n: u32) -> u32 {
